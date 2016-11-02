@@ -20,10 +20,10 @@ Sample input:
 The problem you need to solve is finding the game plan which will take
 the shortest time.
 
-For example, considering the sample input; if games [(1,2), (3,4)] are
-played between minutes 0-30, games [(2,3), (4,5)] are played between
-minutes 30-60 and the game [(1,5)] is played between minutes 60-90;
-the tournament will be finished in 90 minutes.
+For example, considering the sample input; if games `[(1,2), (3,4)]`
+are played between minutes 0-30, games `[(2,3), (4,5)]` are played
+between minutes 30-60 and the game `[(1,5)]` is played between minutes
+60-90; the tournament will be finished in 90 minutes.
 
 Sample output (list of list of tuples):
 
