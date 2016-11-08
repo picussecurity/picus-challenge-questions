@@ -30,3 +30,14 @@ Sample output (list of list of tuples):
 ```
 [[(1, 2), (3, 4)], [(2, 3), (4, 5)], [(1, 5)]]
 ```
+
+Please don't waste your time and use below skeleton:
+
+```
+main = interact $ \str ->
+  let councilList = map ((\(a:b:[]) -> (a,b)) . map (read::String -> Int) . words) . lines $ str
+  in show . solve $ councilList
+  where
+    solve :: [(Int, Int)] -> [ [(Int, Int)] ]
+    solve = undefined
+```
