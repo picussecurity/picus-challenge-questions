@@ -39,9 +39,10 @@ not only a single skill.
 
 ## Goals
 
-It should be easy to understand how the app works, see which skills
-are currently tracked, find a new skill to track and untrack a
-skill. Viewing the tree and changing the aspect should be intuitive.
+The output should be for a web application. It should be easy to understand how
+the app works, see which skills are currently tracked, find a new skill to 
+track and untrack a skill. Viewing the tree and changing the aspect should be
+intuitive.
 
 ## Notes
 
