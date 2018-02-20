@@ -9,10 +9,10 @@ Two years ago, we lost all communication with the colonists. We had no clue to
 what was happening there until now. Yet our last efforts to establish
 communication with them was successful; we got data from the implants on the
 creatures. According to the data, some of the creatures survived, some died in
-a few days, and we didn’t receive data from some of them.
+a few days, and we didn’t receive data from the rest of them.
 
 We have data about the properties of these creatures, and the fact that if they
-are dead, alive or unreachable. If we can visualize this data, we can better
+are dead, alive, or unreachable. If we can visualize this data, we can better
 understand the common properties of the creatures that survived.
 
 What we want from you is to interactively visualize the data in a way that you
