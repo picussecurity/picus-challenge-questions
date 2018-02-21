@@ -23,3 +23,21 @@ We want you to write a component with any technology you are comfortable with (p
 - The code should be tidy, readable and concise.
 - It should look presentable and user-friendly.
 - It should be easily adaptable to receive an asynchronous (Promise returning) function instead of a synchronous one.
+- It should be able to receive components to display for each state provided by the consumer. (This is called FACC or Render Props pattern.)
+
+## Tip: Sample Type Signature
+
+```
+type Props = {
+  checkConnectivity: () => boolean | Promise<boolean>,
+  renderOffline?: ({ remainingSeconds: number }) => React.Node,
+  renderReconnecting?: () => React.Node,
+}
+
+type PropsBonus = {
+  checkConnectivity: () => boolean | Promise<boolean>,
+  renderOnline?: ({ isRecentlyConnected: boolean }) => React.Node,
+  renderOffline?: ({remainingSeconds: number | "canceled", retryNow: Function }) => React.Node,
+  renderReconnecting?: ({ cancel: Function }) => React.Node,
+}
+```
