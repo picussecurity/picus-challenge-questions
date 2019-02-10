@@ -17,7 +17,8 @@ You start out with the top two rows: 1, and 1 1. Then to construct each entry in
 Write a go file that produce Pascal's triangle with the given depth.
   
   
-Example Output:
+##### Example Output:
+
 ````
  
    1 

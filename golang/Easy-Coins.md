@@ -1,6 +1,6 @@
-Write a program:
+#### Write a program:
 
-Programming Challenge Description:
+##### Programming Challenge Description:
 The goal of this challenge is to design a cash register program.
 You will be given two decimal numbers. The first is the purchase price (PP) of the item.
 The second is the cash (CH) given by the customer.
@@ -22,12 +22,12 @@ Your register currently has the following bills/coins within it:
 
 The aim of the program is to calculate the change that has to be returned to the customer.
 
-Input:
+#### Input:
 Your program should read lines of text from standard input.
 Each line contains two numbers which are separated by a semicolon.
 The first is the Purchase price (PP) and the second is the cash(CH) given by the customer.
 
-Output:
+#### Output:
 For each line of input print a single line to standard output which is the change to be returned to the customer.
 In case the CH < PP, print out ERROR. If CH == PP, print out ZERO.
 For all other cases print the amount that needs to be returned, in terms of the currency values provided.
