@@ -1,6 +1,6 @@
-# MailDelivr
+# MailCampaign
 
-You are supposed to write a web service for sending email campaigns to contacts. You are free to choose whatever technology you will use to implement it.
+You are supposed to write a web service for sending email campaigns to contacts. You are free to choose whatever technology you like to implement it.
 
 ## Requirements
 
