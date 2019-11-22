@@ -33,3 +33,6 @@ These are not necessary and only valuable if you meet all of the requirements wi
 * Ability to create/list/cancel campaigns
 
 It's very important to deliver us the source code of the project and clear instructions to build and test it. You can assume we will run on Linux with no extra packages installed.
+
+## Important Note
+It is crucial for your work to be personal and created by yourself. There may be a session that you will be explaining your solution and decision patterns & reasons.
