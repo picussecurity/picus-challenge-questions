@@ -1,4 +1,4 @@
-# MailCampaign
+# Mail Campaign
 
 You are supposed to write a web service for sending email campaigns to contacts. You are free to choose whatever technology you like to implement it.
 
