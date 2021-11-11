@@ -24,6 +24,10 @@ User can use any combination of these filters. Also of course client should not 
 
 You can assume client IP and port defines identity of a user.
 
+## Submission
+
+Please provide us a `Readme` to help us execute your implementation and query commands you designed. You can assume we will 
+execute this code on a linux machine.
 
 ## Evaluation
 
