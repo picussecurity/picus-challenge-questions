@@ -2,12 +2,13 @@
 
 ## First Part
 
-We want you to implement a 1-1 messaging app. Server runs first, client connects to the server.
-Server side should take port number to listen as command line argument. Client
-side should take server's IP address and port number as command line arguments.
-Receiving side sends an ack message to the sender. Wire protocol should not make
-any assumptions on data format (encoding etc.) and size. UI is your choice (command line, GTK gui, web UI
-etc.). After the initial connection, both peers can send and receive messages to each other.
+We want you to implement a 1-1 messaging app over TCP/IP. You need to implement a TCP server and a TCP client.
+
+Server runs first and takes port number to listen as command line argument. Client takes server's IP address and port number as command line arguments.
+After the initial connection, both peers can send and receive messages to each other via application UI. Received message should be displayed on the receiving side.
+
+Wire protocol should not make any assumptions on data format (encoding etc.) and size. You can use any kind of UI (command line, GTK gui, Swing, web UI
+etc.).
 
 ## Second Part
 
