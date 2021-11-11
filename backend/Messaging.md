@@ -7,7 +7,7 @@ Server side should take port number to listen as command line argument. Client
 side should take server's IP address and port number as command line arguments.
 Receiving side sends an ack message to the sender. Wire protocol should not make
 any assumptions on data format (encoding etc.) and size. UI is your choice (command line, GTK gui, web UI
-etc.).
+etc.). After the initial connection, both peers can send and receive messages to each other.
 
 ## Second Part
 
