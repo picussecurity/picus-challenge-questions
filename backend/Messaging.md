@@ -4,7 +4,7 @@
 
 We want you to implement a 1-1 messaging app over TCP/IP. There will be a server, which acts as a broker between clients, and any number of clients.
 
-The server runs first and takes a port number to listen as a command-line argument. Clients take the nickname, server's IP address, and port number as command-line arguments then connect to the server. After the initial connection, clients can list currently connected clients, and the server responds with nicknames of currently connected users. Then, clients can send messages to any client by specifying the target's nickname. The first word of the message can be the target's nickname, for example. Any syntax or method is accepted as long as it works.
+The server runs first and takes a port number to listen as a command-line argument. Clients take the nickname, server's IP address, and port number as command-line arguments then connect to the server. After the initial connection, clients can list currently connected clients, and the server responds with nicknames of currently connected users. Then, clients can send messages to any client by specifying the target's nickname. If the GUI is command-line the first word of the message can be the target's nickname, for example. Any syntax or method is accepted as long as it works.
 
 Wire protocol should not make any assumptions on data format (encoding etc.) and size. You can use any kind of UI (command line, GTK GUI, Swing, web UI etc.).
 
