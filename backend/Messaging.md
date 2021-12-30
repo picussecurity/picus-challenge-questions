@@ -14,11 +14,11 @@ The server should be storing all messages in a persistent medium with sender and
 
 A client can also query these messages from the server with a special message sent to a server (in a format you decide).
 There should be 3 filters that users can apply:
-- Query last x messages
-- Query messages that contain some text
-- Query according to message direction (sent by me or to me)
+- Query last x messages (e.g. `get last 5`)
+- Query messages that contain some text (e.g. `get contains hello`)
+- Query according to message direction (sent by me or to me) (e.g. `get from-me`)
 
-Users can use any combination of these filters. Also of course clients should be able to access messages that are sent from or to them. Messages between other clients should not be accessible. If a combination of these queries is used, the `last x messages` query should act like a limiter (similar to `limit` in SQL). Namely, it should not apply other filters on last x messages.
+Users can use any combination of these filters (e.g. `get to-me last 5 contains hi`). Also of course clients should be able to access messages that are sent from or to them. Messages between other clients should not be accessible. If a combination of these queries is used, the `last x messages` query should act like a limiter (similar to `limit` in SQL). Namely, it should not apply other filters on last x messages.
 
 ## Submission
 
